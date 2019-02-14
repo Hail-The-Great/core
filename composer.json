@@ -1,0 +1,26 @@
+{
+    "name": "hail-the-great/core",
+    "description": "the new thinkphp framework",
+    "type": "composer-test",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ddt",
+            "email": "2420571831@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "hail-the-great/installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "library/think"
+        }
+    }
+}

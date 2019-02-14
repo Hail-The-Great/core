@@ -14,9 +14,6 @@
             "email": "2420571831@qq.com"
         }
     ],
-    "require": {
-        "php": ">=5.4.0"
-    },
     "autoload": {
         "psr-4": {
             "think\\": "library/think"
